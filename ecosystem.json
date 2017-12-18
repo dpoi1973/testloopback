@@ -1,0 +1,76 @@
+{
+  /**
+   * Application configuration section
+   * http://pm2.keymetrics.io/docs/usage/application-declaration/
+   */
+  apps : [
+
+    // First application
+    {
+      name      : "zhidanloopapi",
+      script    : "server/server.js",
+      env: {
+        COMMON_VARIABLE: "true"
+      },
+      env_production : {
+        NODE_ENV: "production"
+      },
+       env_dev : {
+        NODE_ENV: "development"
+      },
+       env_test : {
+        NODE_ENV: "test"
+      }
+    },
+
+   
+  ],
+
+  /**
+   * Deployment section
+   * http://pm2.keymetrics.io/docs/usage/deployment/
+   */
+  deploy : {
+    production : {
+      user : "wanli",
+      host : "192.168.0.72",
+      ref  : "origin/sailsin",
+      repo : "git@192.168.0.219:root/zhiDanLoopback.git",
+      path : "~/www/zhidanloopapi/production",
+      "post-deploy" : "npm install && pm2 startOrRestart ecosystem.json --env production"
+    },
+    dev : {
+      user : "wanli",
+      host : "192.168.0.72",
+      ref  : "origin/master",
+      repo : "git@192.168.0.219:root/zhiDanLoopback.git",
+      path : "~/www/zhidanloopapi/development",
+      "post-deploy" : "npm install && pm2 startOrRestart ecosystem.json --env dev",
+      env  : {
+        NODE_ENV: "development"
+      }
+    },
+    test : {
+      user : "wanli",
+      host : "192.168.0.72",
+      ref  : "origin/test",
+      repo : "git@192.168.0.219:root/zhiDanLoopback.git",
+      path : "~/www/zhidanloopapi/test",
+      "post-deploy" : "npm install && pm2 startOrRestart ecosystem.json --env test",
+      env  : {
+        NODE_ENV: "test"
+      }
+    },
+    ksd : {
+      user : "wanli",
+      host : "192.168.0.72",
+      ref  : "origin/ksd",
+      repo : "git@192.168.0.219:root/zhiDanLoopback.git",
+      path : "~/www/zhidanloopapi/ksd",
+      "post-deploy" : "npm install && pm2 startOrRestart ecosystem.json --env ksd",
+      env  : {
+        NODE_ENV: "ksd"
+      }
+    }
+  }
+}

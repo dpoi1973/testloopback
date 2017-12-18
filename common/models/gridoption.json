@@ -1,0 +1,38 @@
+{
+  "name": "gridoption",
+  "plural": "gridoptions",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "applicationName": {
+      "type": "string",
+      "required": true,
+      "length": 20
+    },
+    "gridModelName": {
+      "type": "string",
+      "required": true,
+      "length": 30
+    },
+    "keystr": {
+      "type": "string",
+      "index": {
+        "unique": true
+      },
+      "length": 50
+    }
+  },
+  "validations": [],
+  "relations": {
+    "columns": {
+      "type": "hasMany",
+      "model": "gridColumnModel",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

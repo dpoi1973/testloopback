@@ -1,0 +1,53 @@
+{
+  "name": "transbillinfo",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+     "mssql": {
+      "table": "tbl_transBillInfo"
+    }
+  },
+  "properties": {
+    "uid": { "type": "string","id": true },
+    "BillCustId": { "type": "string" },
+    "SupplierId": { "type": "string" },
+    "SupplierName": { "type": "string", "size": 20 },
+    "TihuoDate": { "type": "date" },
+    "TihuoPlace": { "type": "string", "size": 20 },
+    "SendPlace": {
+      "type": "string",
+      "size": 20
+    },
+    "OtherMemo": { "type": "string", "size": 100 },
+    "CreatePersonName": { "type": "string", "size": 10 },
+    "Createdate": { "type": "date" },
+    "LastupdatePersonname": { "type": "string", "size": 10 },
+    "LastupdateDate": { "type": "date" },
+    "versionid": { "type": "any" },
+    "BillCustName": { "type": "string", "size": 50 },
+    "BillMemoType": { "type": "string", "size": 100 },
+    "FinishFlag": { "type": "boolean" },
+    "FinishDate": { "type": "date" },
+    "FinishPersonName": { "type": "string", "size": 20 },
+    "FeeWeigthMemo": { "type": "string", "size": 20 },
+    "transType": { "type": "string", "size": 20 },
+    "warning": { "type": "boolean" }
+  },
+  "validations": [],
+  "relations": {
+    "transywinfos": {
+      "type": "hasMany",
+      "model": "transywinfodetail",
+      "foreignKey": "parentid"
+    },
+     "transcars": {
+      "type": "hasMany",
+      "model": "transbillcardetailinfo",
+      "foreignKey": "parentid"
+    }
+
+  },
+  "acls": [],
+  "methods": {}
+}

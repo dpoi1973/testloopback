@@ -1,0 +1,30 @@
+{
+  "name": "HrmPinYinResource",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mssql": {
+      "table": "HrmPinYinResource"
+    }
+  },
+  "description": "124日志表",
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true
+    },
+    "loginid": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+
+  },
+  "acls": [],
+  "methods": {}
+}

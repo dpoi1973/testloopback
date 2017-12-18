@@ -1,0 +1,74 @@
+{
+  "name": "BillInfoCollection",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "CreatePersonName": {
+      "type": "string"
+    },
+    "CreateDate": {
+      "type": "date"
+    },
+    "LastUpdatedate": {
+      "type": "date"
+    },
+    "LastUpdatePerson": {
+      "type": "string"
+    },
+    "BillCustid": {
+      "type": "buffer"
+    },
+    "BillCustName": {
+      "type": "string"
+    },
+    "BillTitle": {
+      "type": "string"
+    },
+    "TotalRAAmount": {
+      "type": "number"
+    },
+    "TotalCostAmount": {
+      "type": "number"
+    },
+    "TotalPrePayCostAmount": {
+      "type": "number"
+    },
+    "ContractID": {
+      "type": "string"
+    },
+    "CalType": {
+      "type": "string"
+    },
+    "Memo": {
+      "type": "string"
+    },
+    "CurrStatus": {
+      "type": "number"
+    },
+    "billTypevalue": {
+      "type": "string"
+    },
+    "ywbilllist": {
+      "type": "string"
+    },
+    "AvailInvoiceAmount": {
+      "type": "string"
+    },
+    "BillCustNO": {
+      "type": "string"
+    }
+  },
+  "relations": {
+        "YWBillCollection": {
+            "type": "hasMany",
+            "model": "YWBillCollection",
+            "foreignKey": "BillId"
+        }
+    },
+  "validations": [],
+  "acls": [],
+  "methods": {}
+}

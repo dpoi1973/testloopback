@@ -1,0 +1,65 @@
+{
+    "name": "billcostinfo",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "billywid": {
+            "type": "string"
+        },
+        "Createdate": {
+            "type": "date"
+        },
+        "CreatePerson": {
+            "type": "string"
+        },
+        "CostTypeName": {
+            "type": "string"
+        },
+        "CostTypeNO": {
+            "type": "string"
+        },
+        "CostAmount": {
+            "type": "string"
+        },
+        "CostMemo": {
+            "type": "string"
+        },
+        "ParentYWID": {
+            "type": "string"
+        },
+        "OtherNO": {
+            "type": "string"
+        },
+        "PrepayFlag": {
+            "type": "boolean"
+        },
+        "ConfirmFlag": {
+            "type": "boolean"
+        },
+        "ConfirmPerson": {
+            "type": "string"
+        },
+        "ConfirmDate": {
+            "type": "date"
+        },
+        "OtherNOType": {
+            "type": "string"
+        },
+        "OtherNOID": {
+            "type": "string"
+        },
+        "TaxType": {
+            "type": "string"
+        },
+        "InvoiceNO": {
+            "type": "string"
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}

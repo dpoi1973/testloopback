@@ -1,0 +1,32 @@
+{
+  "name": "decmod",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mongodb":{
+      "table":"decmod"
+    }
+  },
+  "properties": {
+    "Pre_entry_id": {
+      "type": "string"
+    },
+    "StatusDate": {
+      "type": "string",
+      "index": {
+        "unique": true
+      }
+    },
+    "StatusName": {
+      "type": "string"
+    },
+    "ywid": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

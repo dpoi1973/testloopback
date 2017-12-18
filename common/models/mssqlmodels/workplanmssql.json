@@ -1,0 +1,66 @@
+{
+  "name": "workplanmssql",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mssql": {
+      "table": "WorkPlan"
+    }
+  },
+  "description": "124日志表",
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true
+    },
+    "type_n": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "resourceid": {
+      "type": "string"
+    },
+    "begindate": {
+      "type": "string"
+    },
+    "begintime": {
+      "type": "string"
+    },
+    "enddate": {
+      "type": "string"
+    },
+    "endtime": {
+      "type": "string"
+    },
+    "createrid": {
+      "type": "number"
+    },
+    "createdate": {
+      "type": "string"
+    },
+    "createtime": {
+      "type": "string"
+    },
+    "deleted": {
+      "type": "string"
+    },
+    "urgentLevel": {
+      "type": "string"
+    },
+    "remindtype": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+
+  },
+  "acls": [],
+  "methods": {}
+}

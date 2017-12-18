@@ -1,0 +1,242 @@
+{
+  "name": "formheadlogs",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true,
+    "mongodb": {
+      "collection": "formheadlogs"
+    }
+  },
+  "properties": {
+    "ie_flag": {
+      "type": "string"
+    },
+    "pre_entry_id": {
+      "type": "string",
+      "index": {
+        "unique": true
+      }
+    },
+    "customs_id": {
+      "type": "string"
+    },
+    "manual_no": {
+      "type": "string"
+    },
+    "contr_no": {
+      "type": "string"
+    },
+    "i_e_date": {
+      "type": "string"
+    },
+    "d_date": {
+      "type": "string"
+    },
+    "trade_co": {
+      "type": "string"
+    },
+    "trade_name": {
+      "type": "string"
+    },
+    "owner_code": {
+      "type": "string"
+    },
+    "owner_name": {
+      "type": "string"
+    },
+    "agent_code": {
+      "type": "string"
+    },
+    "agent_name": {
+      "type": "string"
+    },
+    "traf_mode": {
+      "type": "string"
+    },
+    "traf_name": {
+      "type": "string"
+    },
+    "voyage_no": {
+      "type": "string"
+    },
+    "bill_no": {
+      "type": "string"
+    },
+    "trade_mode": {
+      "type": "string"
+    },
+    "cut_mode": {
+      "type": "string"
+    },
+    "in_ratio": {
+      "type": "string"
+    },
+    "pay_way": {
+      "type": "string"
+    },
+    "lisence_no": {
+      "type": "string"
+    },
+    "trade_country": {
+      "type": "string"
+    },
+    "distinate_port": {
+      "type": "string"
+    },
+    "district_code": {
+      "type": "string"
+    },
+    "appr_no": {
+      "type": "string"
+    },
+    "trans_mode": {
+      "type": "string"
+    },
+    "fee_mark": {
+      "type": "string"
+    },
+    "fee_rate": {
+      "type": "string"
+    },
+    "fee_curr": {
+      "type": "string"
+    },
+    "insur_mark": {
+      "type": "string"
+    },
+    "insur_rate": {
+      "type": "string"
+    },
+    "insur_curr": {
+      "type": "string"
+    },
+    "other_mark": {
+      "type": "string"
+    },
+    "other_rate": {
+      "type": "string"
+    },
+    "other_curr": {
+      "type": "string"
+    },
+    "pack_no": {
+      "type": "string"
+    },
+    "wrap_type": {
+      "type": "string"
+    },
+    "gross_wt": {
+      "type": "string"
+    },
+    "net_wt": {
+      "type": "string"
+    },
+    "ex_source": {
+      "type": "string"
+    },
+    "type_er": {
+      "type": "string"
+    },
+    "entry_group": {
+      "type": "string"
+    },
+    "is_status": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "create_date": {
+      "type": "string"
+    },
+    "del_flag": {
+      "type": "string"
+    },
+    "RaDeclNo": {
+      "type": "string"
+    },
+    "RaManualNo": {
+      "type": "string"
+    },
+    "StoreNo": {
+      "type": "string"
+    },
+    "PrdtID": {
+      "type": "string"
+    },
+    "i_e_port": {
+      "type": "string"
+    },
+    "note_s": {
+      "type": "string"
+    },
+    "print_date": {
+      "type": "string"
+    },
+    "SUP_FLAG": {
+      "type": "string"
+    },
+    "CollectTax": {
+      "type": "string"
+    },
+    "Two_Audit": {
+      "type": "string"
+    },
+    "chk_surety": {
+      "type": "string"
+    },
+    "BILL_TYPE": {
+      "type": "string"
+    },
+    "PaperLessTax": {
+      "type": "string"
+    },
+    "Tax_Amount": {
+      "type": "string"
+    },
+    "is_status_old": {
+      "type": "string"
+    },
+    "Tax_No": {
+      "type": "string"
+    },
+    "CBE": {
+      "type": "string"
+    },
+    "TRADE_CO_SCC": {
+      "type": "string"
+    },
+    "AGENT_CODE_SCC": {
+      "type": "string"
+    },
+    "OWNER_CODE_SCC": {
+      "type": "string"
+    },
+    "EDI_NO": {
+      "type": "string"
+    },
+    "COP_NO": {
+      "type": "string"
+    },
+    "DECL_PORT": {
+      "type": "string"
+    },
+    "TongguanDate": {
+      "type": "date"
+    },
+    "SWFXDate": {
+      "type": "date"
+    },
+    "yearno": {
+      "type": "string"
+    },
+    "Processflag":{
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

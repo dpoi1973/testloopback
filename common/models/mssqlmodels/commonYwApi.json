@@ -1,0 +1,13 @@
+{
+    "name": "commonYwApi",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "description": "sqlServer api",
+    "properties": {
+        
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}

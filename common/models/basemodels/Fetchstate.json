@@ -1,0 +1,23 @@
+{
+    "name": "fetchstate",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "pre_entry_id": {
+            "type": "string"
+        },
+        "state": {
+            "type": "string"
+        },
+        "processdate": {
+            "type": "date"
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}

@@ -1,0 +1,35 @@
+{
+  "name": "kjtproduct",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mysql": {
+      "table": "kjtproduct"
+    }
+  },
+  "properties": {
+    "serialno": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "string"
+    },
+    "productno": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "totalamount": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

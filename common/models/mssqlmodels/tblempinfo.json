@@ -1,0 +1,80 @@
+{
+    "name": "tblempinfo",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true,
+        "mssql": {
+            "table": "tbl_Empinfo"
+        }
+    },
+    "description": "sqlServer 员工信息表",
+    "properties": {
+        "Empid": {
+            "type": "string","id": true
+        },
+        "Empname": {
+            "type": "string",
+            "size": 50
+        },
+        "Sex": {
+            "type": "string",
+            "size": 50
+        },
+        "Memo": {
+            "type": "string",
+            "size": 255
+        },
+        "Birthday": {
+            "type": "date"
+        },
+        "WorkSerialno": {
+            "type": "string",
+            "size": 50
+        },
+        "DepartNO": {
+            "type": "string",
+            "size": 10
+        },
+        "DepartID": {
+            "type": "string"
+        },
+        "CreateDate": {
+            "type": "date"
+        },
+        "GroupName": {
+            "type": "string",
+            "size": 20
+        },
+        "OtherMemo": {
+            "type": "string",
+            "size": 50
+        },
+        "GroupID": {
+            "type": "string"
+        },
+        "stopflag": {
+            "type": "boolean"
+        },
+        "Tel": {
+            "type": "string",
+            "size": 50
+        },
+        "wechatmail": {
+            "type": "string",
+            "size": 50
+        },
+        "wechatno": {
+            "type": "string",
+            "size": 50
+        },
+        "wechatphone": {
+            "type": "string",
+            "size": 50
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}

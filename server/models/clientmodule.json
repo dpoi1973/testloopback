@@ -1,0 +1,33 @@
+{
+  "name": "clientmodule",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "agentCode": {
+      "type": "string",
+      "required": true,
+      "default": "EDI",
+      "length": 20
+    },
+    "userName": {
+      "type": "string",
+      "required": true,
+      "length": 20
+    },
+    "IPAddress": {
+      "type": "string",
+      "length": 20
+    },
+    "lastResultTime": {
+      "type": "string",
+      "length": 20
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

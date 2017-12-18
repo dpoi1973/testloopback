@@ -1,0 +1,59 @@
+{
+    "name": "dclbiodeclcont",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true,
+        "mysql": {
+            "table": "Dcl_B_Io_Decl_Cont"
+        }
+    },
+    "description": "mysql model in test",
+    "properties": {
+        "Cont_Id": {
+            "type": "string",
+            "size": 32
+        },
+        "Decl_Id": {
+            "type": "string",
+            "size": 32
+        },
+        "Ent_Decl_No": {
+            "type": "string",
+            "size": 40
+        },
+        "Cont_Num": {
+            "type": "string",
+            "size": 255
+        },
+        "Cntnr_Mode_Code": {
+            "type": "string",
+            "size": 4
+        },
+        "Container_Qty": {
+            "type": "string",
+            "size": 255
+        },
+        "Cont_No": {
+            "type": "string",
+            "size": 4000
+        },
+        "Lcl_Flag": {
+            "type": "string",
+            "size": 1
+        },
+        "Cntnr_Mode_Name": {
+            "type": "string",
+            "size": 60
+        },
+        "createdAt": {
+            "type": "date"
+        },
+        "updatedAt": {
+            "type": "date"
+        }
+    },
+    "validations": [],
+    "acls": [],
+    "methods": {}
+}

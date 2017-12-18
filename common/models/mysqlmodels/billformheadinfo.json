@@ -1,0 +1,95 @@
+{
+    "name": "billformheadinfo",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "billywid": {
+            "type": "string"
+        },
+        "formheadID": {
+            "type": "string"
+        },
+        "pre_entry_id": {
+            "type": "string"
+        },
+        "d_date": {
+            "type": "date"
+        },
+        "GoodsNum": {
+            "type": "number"
+        },
+        "INVNO": {
+            "type": "string"
+        },
+        "ContractNO": {
+            "type": "string"
+        },
+        "trade_name": {
+            "type": "string"
+        },
+        "owner_name": {
+            "type": "string"
+        },
+        "bill_no": {
+            "type": "string"
+        },
+        "trade_mode": {
+            "type": "string"
+        },
+        "packNO": {
+            "type": "string"
+        },
+        "wrap_type": {
+            "type": "string"
+        },
+        "grossweight": {
+            "type": "string"
+        },
+        "ie_flag": {
+            "type": "string"
+        },
+        "traf_name": {
+            "type": "string"
+        },
+        "opnum": {
+            "type": "number"
+        },
+        "oldeopnum": {
+            "type": "number"
+        },
+        "zhuandiaoflag": {
+            "type": "string"
+        },
+        "maingoodsname": {
+            "type": "string"
+        },
+        "serviceStr": {
+            "type": "string"
+        },
+        "totalAmount": {
+            "type": "string"
+        },
+        "i_e_port": {
+            "type": "string"
+        },
+        "declPort": {
+            "type": "string"
+        },
+        "manualNO": {
+            "type": "string"
+        },
+        "billTypevalue": {
+            "type": "string"
+        },
+        "zuofeiflag": {
+            "type": "boolean"
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}

@@ -1,0 +1,74 @@
+{
+  "name": "baseywbill",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "billywid": {
+      "type": "string"
+    },
+    "BillId": {
+      "type": "string"
+    },
+    "YWID": {
+      "type": "string"
+    },
+    "YWNO": {
+      "type": "string"
+    },
+    "CustYWNO": {
+      "type": "string"
+    },
+    "InvoiceNO": {
+      "type": "string"
+    },
+    "CustDandang": {
+      "type": "string"
+    },
+    "totalAmount": {
+      "type": "string"
+    },
+    "memo": {
+      "type": "string"
+    },
+    "YWSDate": {
+      "type": "date"
+    },
+    "feeweight": {
+      "type": "string"
+    },
+    "billMadeCount": {
+      "type": "number"
+    },
+    "YWType": {
+      "type": "number"
+    },
+    "ZhiDanMemo": {
+      "type": "string"
+    },
+    "ZhuanGuanMemo": {
+      "type": "string"
+    },
+    "billywTypevalue": {
+      "type": "json"
+    },
+    "billFormheadInfo": {
+      "type": "json"
+    },
+    "billDetailInfo": {
+      "type": "json"
+    },
+    "billcostInfo": {
+      "type": "json"
+    },
+    "billRAList": {
+      "type": "json"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

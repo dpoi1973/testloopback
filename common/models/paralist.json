@@ -1,0 +1,19 @@
+{
+  "name": "paralist",
+ "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mongodb":{
+      "collection":"ParaList"
+    }
+  },
+  "properties": {
+    "ParaDefName":{"type":"string"},
+    "paralist":{"type":"array"}
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

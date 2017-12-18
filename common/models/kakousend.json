@@ -1,0 +1,39 @@
+{
+  "name": "kakousend",
+  "plural": "kakousend",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "batchno": {
+      "type": "string"
+    },
+    "pre_entry_id": {
+      "type": "string"
+    },
+    "tradename": {
+      "type": "string"
+    },
+    "tradecode": {
+      "type": "string"
+    },
+    "packno": {
+      "type": "string"
+    },
+    "memo": {
+      "type": "string"
+    },
+    "createperson": {
+      "type": "string"
+    },
+    "createdate": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

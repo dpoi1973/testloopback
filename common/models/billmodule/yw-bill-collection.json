@@ -1,0 +1,33 @@
+{
+  "name": "YWBillCollection",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "BillId": { "type": "string" },
+    "YWID": { "type": "buffer" },
+    "YWNO": { "type": "string" },
+    "CustYWNO": { "type": "string" },
+    "InvoiceNO": { "type": "string" },
+    "CustDandang": { "type": "string" },
+    "totalAmount": { "type": "string" },
+    "memo": { "type": "string" },
+    "YWSDate": { "type": "date" },
+    "feeweight": { "type": "string" },
+    "billMadeCount": { "type": "number" },
+    "YWType": { "type": "number" },
+    "ZhiDanMemo": { "type": "string" },
+    "ZhuanGuanMemo": { "type": "string" },
+    "billywTypevalue": { "type": "string" },
+    "billFormheadInfo": { "type": "array" },
+    "billDetailInfo": { "type": "array" },
+    "billcostInfo": { "type": "array" },
+    "billRAList": { "type": "array" }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,41 @@
+{
+  "name": "YWRelatedStatusInfo",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true,
+    "mongodb": {
+      "collection": "YWRelatedStatusInfo"
+    }
+  },
+  "properties": {
+    "Pre_entry_id": {
+      "type": "string"
+    },
+    "YWID": {
+      "type": "string"
+    },
+     "StatusDate": {
+      "type": "string"
+    },
+     "StatusName": {
+      "type": "string"
+    },
+     "ImportSource": {
+      "type": "string"
+    },
+     "LastUpdateDate": {
+      "type": "string"
+    },
+     "processflag": {
+      "type": "string"
+    },
+     "UniqueID": {
+      "type": "string"
+    }
+},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

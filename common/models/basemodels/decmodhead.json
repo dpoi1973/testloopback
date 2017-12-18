@@ -1,0 +1,71 @@
+{
+  "name": "decmodhead",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true,
+    "mongodb": {
+      "collection": "decmod_head"
+    }
+  },
+  "properties": {
+    "ObjectID": {
+      "type": "string",
+      "index": {
+        "unique": true
+      }
+    },
+    "DecModSeqNo": {
+      "type": "string"
+    },
+    "DecModType": {
+      "type": "string"
+    },
+    "EntryId": {
+      "type": "string"
+    },
+    "DecModNote": {
+      "type": "string"
+    },
+    "CheckMark": {
+      "type": "string"
+    },
+    "DecSeqNo": {
+      "type": "string"
+    },
+    "OperType": {
+      "type": "string"
+    },
+    "Status": {
+      "type": "string"
+    },
+    "Create_Time": {
+      "type": "string"
+    },
+    "Update_Time": {
+      "type": "string"
+    },
+    "EntOpName": {
+      "type": "string"
+    },
+    "EntOpTele": {
+      "type": "string"
+    },
+    "FeedDept": {
+      "type": "string"
+    },
+    "User_Name": {
+      "type": "string"
+    },
+    "declist": {
+      "type": "array"
+    },
+    "result": {
+      "type": "array"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

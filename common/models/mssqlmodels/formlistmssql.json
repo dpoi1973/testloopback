@@ -1,0 +1,147 @@
+{
+  "name": "formlistmssql",
+  "base": "formlistbase",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mssql":{
+      "table":"formlist"
+    }
+  },
+  "properties": {
+    "FORM_LIST_GUID":false,
+    "SUP_TYPE":false,
+    "createdBy":false,
+    "owner":false,
+    "createdAt":false,
+    "updatedAt":false,
+    "parentid":false,
+    "id": {
+      "type": "string",
+      "id": true,
+      "defaultFn": "guid"
+    },
+    "parentID":{
+      "type":"string"
+    },
+    "pre_entry_id":{
+      "type":"string"
+    },
+    "g_no":{
+      "type":"string"
+    },
+    "code_t":{
+      "type":"string"
+    },
+    "code_s":{
+      "type":"string"
+    },
+    "g_name":{
+      "type":"string"
+    },
+    "g_model":{
+      "type":"string"
+    },
+    "qty_1":{
+      "type":"string"
+    },
+    "g_unit":{
+      "type":"string"
+    },
+    "decl_price":{
+      "type":"string"
+    },
+    "trade_total":{
+      "type":"string"
+    },
+    "trade_curr":{
+      "type":"string"
+    },
+    "qty_conv":{
+      "type":"string"
+    },
+    "unit_1":{
+      "type":"string"
+    },
+    "ver_no":{
+      "type":"string"
+    },
+    "prdt_no":{
+      "type":"string"
+    },
+    "use_to":{
+      "type":"string"
+    },
+    "origin_country":{
+      "type":"string"
+    },
+    "contr_item":{
+      "type":"string"
+    },
+    "qty_2":{
+      "type":"string"
+    },
+    "unit_2":{
+      "type":"string"
+    },
+    "duty_mode":{
+      "type":"string"
+    },
+    "work_usd":{
+      "type":"string"
+    },
+    "create_date":{
+      "type":"string"
+    },
+    "entry_group":{
+      "type":"string"
+    },
+    "DESTINATION_COUNTRY":{
+      "type":"string"
+    },
+    "GrossWeight":{
+      "type":"string",
+      "default":0
+    },
+    "NetWeight":{
+      "type":"string",
+      "default":0
+    },
+    "DutyRate":{
+      "type":"string",
+      "default":0
+    },
+    "VATRate":{
+      "type":"string",
+      "default":0
+    },
+    "GSTRate":{
+      "type":"string",
+      "default":0
+    },
+    "USDRate":{
+      "type":"string",
+      "default":0
+    },
+    "USDTotal":{
+      "type":"string",
+      "default":0
+    },
+    "CFlag":{
+      "type":"string",
+      "default":0
+    },
+    "YFlag":{
+      "type":"string",
+      "default":0
+    },
+    "Qty":{
+      "type":"string",
+      "default":0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

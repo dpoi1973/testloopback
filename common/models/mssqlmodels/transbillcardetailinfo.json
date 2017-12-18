@@ -1,0 +1,20 @@
+{
+  "name": "transbillcardetailinfo",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+     "mssql": {
+      "table": "tbl_transbillcardetailinfo"
+    }
+  },
+  "description": "運輸車輛相關明細",
+  "properties": {
+    "uid":{"type":"string","id": true},
+    "Cartype":{"type":"string","size":20},"CarNo":{"type":"string","size":50},"CarNum":{"type":"number"},"TransMemo":{"type":"string","size":50},"parentid":{"type":"string"},"Memo":{"type":"string","size":50},"versionid":{"type":"any"},"daishiNum":{"type":"number"},"kongzaiNum":{"type":"number"},"yacheNum":{"type":"any"}
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

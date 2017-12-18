@@ -1,0 +1,356 @@
+{
+  "name": "formtempbase",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true,
+    "mongodb": {
+      "collection": "formtempbase"
+    }
+  },
+  "properties": {
+    "ie_flag": {
+      "type": "string",
+      "default": ""
+    },
+    "pre_entry_id": {
+      "type": "string",
+      "index": {
+        "unique": true
+      },
+      "required": true
+    },
+    "customs_id": {
+      "type": "string",
+      "default": ""
+    },
+    "manual_no": {
+      "type": "string",
+      "default": ""
+    },
+    "contr_no": {
+      "type": "string",
+      "default": ""
+    },
+    "i_e_date": {
+      "type": "string",
+      "default": ""
+    },
+    "d_date": {
+      "type": "string",
+      "default": ""
+    },
+    "trade_co": {
+      "type": "string",
+      "default": ""
+    },
+    "trade_name": {
+      "type": "string",
+      "default": ""
+    },
+    "owner_code": {
+      "type": "string",
+      "default": ""
+    },
+    "owner_name": {
+      "type": "string",
+      "default": ""
+    },
+    "agent_code": {
+      "type": "string",
+      "default": ""
+    },
+    "agent_name": {
+      "type": "string",
+      "default": ""
+    },
+    "traf_mode": {
+      "type": "string",
+      "default": ""
+    },
+    "traf_name": {
+      "type": "string",
+      "default": ""
+    },
+    "voyage_no": {
+      "type": "string",
+      "default": ""
+    },
+    "bill_no": {
+      "type": "string",
+      "default": ""
+    },
+    "trade_mode": {
+      "type": "string",
+      "default": ""
+    },
+    "cut_mode": {
+      "type": "string",
+      "default": ""
+    },
+    "in_ratio": {
+      "type": "string",
+      "default": ""
+    },
+    "pay_way": {
+      "type": "string",
+      "default": ""
+    },
+    "lisence_no": {
+      "type": "string",
+      "default": ""
+    },
+    "trade_country": {
+      "type": "string",
+      "default": ""
+    },
+    "distinate_port": {
+      "type": "string",
+      "default": ""
+    },
+    "district_code": {
+      "type": "string",
+      "default": ""
+    },
+    "appr_no": {
+      "type": "string",
+      "default": ""
+    },
+    "trans_mode": {
+      "type": "string",
+      "default": ""
+    },
+    "fee_mark": {
+      "type": "string",
+      "default": ""
+    },
+    "fee_rate": {
+      "type": "string",
+      "default": ""
+    },
+    "fee_curr": {
+      "type": "string",
+      "default": ""
+    },
+    "insur_mark": {
+      "type": "string",
+      "default": ""
+    },
+    "insur_rate": {
+      "type": "string",
+      "default": ""
+    },
+    "insur_curr": {
+      "type": "string",
+      "default": ""
+    },
+    "other_mark": {
+      "type": "string",
+      "default": ""
+    },
+    "other_rate": {
+      "type": "string",
+      "default": ""
+    },
+    "other_curr": {
+      "type": "string",
+      "default": ""
+    },
+    "pack_no": {
+      "type": "string",
+      "default": ""
+    },
+    "wrap_type": {
+      "type": "string",
+      "default": ""
+    },
+    "gross_wt": {
+      "type": "string",
+      "default": ""
+    },
+    "net_wt": {
+      "type": "string",
+      "default": ""
+    },
+    "ex_source": {
+      "type": "string",
+      "default": ""
+    },
+    "type_er": {
+      "type": "string",
+      "default": ""
+    },
+    "entry_group": {
+      "type": "string",
+      "default": ""
+    },
+    "is_status": {
+      "type": "string",
+      "default": ""
+    },
+    "username": {
+      "type": "string",
+      "default": ""
+    },
+    "create_date": {
+      "type": "string",
+      "default": ""
+    },
+    "del_flag": {
+      "type": "string",
+      "default": ""
+    },
+    "RaDeclNo": {
+      "type": "string",
+      "default": ""
+    },
+    "RaManualNo": {
+      "type": "string",
+      "default": ""
+    },
+    "StoreNo": {
+      "type": "string",
+      "default": ""
+    },
+    "PrdtID": {
+      "type": "string",
+      "default": ""
+    },
+    "i_e_port": {
+      "type": "string",
+      "default": ""
+    },
+    "note_s": {
+      "type": "string",
+      "default": ""
+    },
+    "print_date": {
+      "type": "string",
+      "default": ""
+    },
+    "SUP_FLAG": {
+      "type": "string",
+      "default": ""
+    },
+    "CollectTax": {
+      "type": "string",
+      "default": ""
+    },
+    "Two_Audit": {
+      "type": "string",
+      "default": ""
+    },
+    "chk_surety": {
+      "type": "string",
+      "default": ""
+    },
+    "BILL_TYPE": {
+      "type": "string",
+      "default": ""
+    },
+    "PaperLessTax": {
+      "type": "string",
+      "default": ""
+    },
+    "Tax_Amount": {
+      "type": "string",
+      "default": ""
+    },
+    "is_status_old": {
+      "type": "string",
+      "default": ""
+    },
+    "Tax_No": {
+      "type": "string",
+      "default": ""
+    },
+    "CBE": {
+      "type": "string",
+      "default": ""
+    },
+    "TRADE_CO_SCC": {
+      "type": "string",
+      "default": ""
+    },
+    "AGENT_CODE_SCC": {
+      "type": "string",
+      "default": ""
+    },
+    "OWNER_CODE_SCC": {
+      "type": "string",
+      "default": ""
+    },
+    "EDI_NO": {
+      "type": "string",
+      "default": ""
+    },
+    "COP_NO": {
+      "type": "string",
+      "default": ""
+    },
+    "DECL_PORT": {
+      "type": "string",
+      "default": ""
+    },
+    "TongguanDate": {
+      "type": "date",
+      "default": ""
+    },
+    "SWFXDate": {
+      "type": "date",
+      "default": ""
+    },
+    "yearno": {
+      "type": "string",
+      "default": ""
+    },
+    "Processflag": {
+      "type": "bool",
+      "default": false
+    },
+    "sqlflag": {
+      "type": "boolean",
+      "default": false
+    },
+    "ksdflag": {
+      "type": "boolean",
+      "default": false
+    },
+    "ediflag": {
+      "type": "boolean",
+      "default": false
+    },
+    "modifyflagentry": {
+      "type": "boolean",
+      "default": false
+    },
+    "mainGoodsName": {
+      "type": "string",
+      "default": ""
+    },
+    "GoodsNum": {
+      "type": "string",
+      "default": ""
+    },
+    "opnum": {
+      "type": "string",
+      "default": ""
+    },
+    "oldeopnum": {
+      "type": "string",
+      "default": ""
+    },
+    "bzjflag": {
+      "type": "boolean",
+      "default": false
+    },
+    "md5": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,38 @@
+{
+  "name": "decmodresult",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true,
+    "mongodb": {
+      "collection": "decmod_result"
+    }
+  },
+  "properties": {
+    "Reply_Time": {
+      "type": "string",
+      "index": {
+        "unique": true
+      }
+    },
+    "ObjectID": {
+      "type": "string"
+    },
+    "Status": {
+      "type": "string"
+    },
+    "Note": {
+      "type": "string"
+    },
+    "DecModSeqNo": {
+      "type": "string"
+    },
+    "EntryId": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

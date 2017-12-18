@@ -1,0 +1,26 @@
+{
+  "name": "formheadmysql",
+  "base": "formheadbase",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mysql": {
+      "table": "formhead"
+    }
+  },
+  "description":"mysql model in qqauto",
+  "properties": {
+    "formlist": false,
+    "certlist": false
+  },
+  "validations": [],
+  "relations": {
+    "formlist": {
+      "type": "hasMany",
+      "model": "formlistbase",
+      "foreignKey": "parentid"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

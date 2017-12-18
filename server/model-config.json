@@ -1,0 +1,319 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/common/models/basemodels",
+      "loopback/common/models/billmodule",
+      "loopback/common/models/mssqlmodels",
+      "loopback/common/models/mysqlmodels",
+      "loopback/server/models",
+      "../common/models/basemodels",
+      "../common/models/billmodule",
+      "../common/models/mssqlmodels",
+      "../common/models/mysqlmodels",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "custgoods": {
+    "dataSource": "db",
+    "public": true
+  },
+  "empinfo": {
+    "dataSource": "db",
+    "public": true
+  },
+  "TblCustgoods": {
+    "dataSource": "db",
+    "public": true
+  },
+  "gridoption": {
+    "dataSource": "productmysql",
+    "public": true
+  },
+  "gridColumnModel": {
+    "dataSource": "productmysql",
+    "public": true
+  },
+  "clientuser": {
+    "dataSource": "productmysql",
+    "public": true
+  },
+  "clientmodule": {
+    "dataSource": "productmysql",
+    "public": true
+  },
+  "customsresults": {
+    "dataSource": "mongodev",
+    "public": true
+  },
+  "formheadmssql": {
+    "dataSource": "sqlserverdb132",
+    "public": true
+  },
+  "formheadbase": {
+    "dataSource": "mongodev",
+    "public": true
+  },
+  "formheadmysql": {
+    "dataSource": "devmysql",
+    "public": true
+  },
+  "formlistbase": {
+    "dataSource": "devmysql",
+    "public": true
+  },
+  "manualcustproductdetail": {
+    "dataSource": "devmysql",
+    "public": true
+  },
+  "formlistmysql": {
+    "dataSource": "productmysql",
+    "public": true
+  },
+  "formlistmssql": {
+    "dataSource": "sqlserverdb132",
+    "public": true
+  },
+  "formcontainer": {
+    "dataSource": "sqlserverdb132",
+    "public": true
+  },
+  "kakousend": {
+    "dataSource": "storemysql",
+    "public": true
+  },
+  "BillInfoCollection": {
+    "dataSource": "oldmongodev",
+    "public": true
+  },
+  "YWBillCollection": {
+    "dataSource": "oldmongodev",
+    "public": true
+  },
+  "billinfomysql": {
+    "dataSource": "testmysql",
+    "public": true
+  },
+  "ywbillmysql": {
+    "dataSource": "testmysql",
+    "public": true
+  },
+  "basebillinfo": {
+    "dataSource": "testmysql",
+    "public": true
+  },
+  "baseywbill": {
+    "dataSource": "testmysql",
+    "public": true
+  },
+  "billralist": {
+    "dataSource": "testmysql",
+    "public": true
+  },
+  "billcostinfo": {
+    "dataSource": "testmysql",
+    "public": true
+  },
+  "billformheadinfo": {
+    "dataSource": "testmysql",
+    "public": true
+  },
+  "workstatus": {
+    "dataSource": "testmysql",
+    "public": true
+  },
+  "dclbiodecl": {
+    "dataSource": "74testbase",
+    "public": true
+  },
+  "dclbiodeclcont": {
+    "dataSource": "74testbase",
+    "public": true
+  },
+  "dclbiodeclgoods": {
+    "dataSource": "74testbase",
+    "public": true
+  },
+  "transformhead": {
+    "dataSource": "testmongo",
+    "public": true
+  },
+  "transcustomresult": {
+    "dataSource": "testmongo",
+    "public": true
+  },
+  "formcertmssql": {
+    "dataSource": "sqlserverdb132",
+    "public": true
+  },
+  "formtempmssql": {
+    "dataSource": "sqlserverdb132",
+    "public": true
+  },
+  "decmodmssql": {
+    "dataSource": "sqlserverdb132",
+    "public": true
+  },
+  "attachinfo": {
+    "dataSource": "filemongo",
+    "public": true
+  },
+  "formtempbase": {
+    "dataSource": "mongodev",
+    "public": true
+  },
+  "formtempmodify": {
+    "dataSource": "mongodev",
+    "public": true
+  },
+  "formtempcheck": {
+    "dataSource": "mongodev",
+    "public": true
+  },
+  "formtempbaozhengjin": {
+    "dataSource": "mongodev",
+    "public": true
+  },
+  "formheadlogs": {
+    "dataSource": "mongodev",
+    "public": true
+  },
+  "YWRelatedStatusInfo": {
+    "dataSource": "mongodev",
+    "public": true
+  },
+  "transbillinfo": {
+    "dataSource": "sqlserverdb132",
+    "public": true
+  },
+  "custinfo": {
+    "dataSource": "sqlserverdb132",
+    "public": true
+  },
+  "deliveryplacepara": {
+    "dataSource": "sqlserverdb132",
+    "public": true
+  },
+  "transywinfodetail": {
+    "dataSource": "sqlserverdb132",
+    "public": true
+  },
+  "transbillcardetailinfo": {
+    "dataSource": "sqlserverdb132",
+    "public": true
+  },
+  "paralist": {
+    "dataSource": "oldmongopara",
+    "public": true
+  },
+  "kjtorder": {
+    "dataSource": "testmongo",
+    "public": true
+  },
+  "kjtproduct": {
+    "dataSource": "testmongo",
+    "public": true
+  },
+  "kjtperson": {
+    "dataSource": "testmongo",
+    "public": true
+  },
+  "fetchstate": {
+    "dataSource": "testmongo",
+    "public": true
+  },
+  "Ywinfo": {
+    "dataSource": "sqlserverdb132",
+    "public": true
+  },
+  "tblempinfo": {
+    "dataSource": "sqlserverdb132",
+    "public": true
+  },
+  "commonYwApi": {
+    "dataSource": "userapi",
+    "public": true
+  },
+  "decmodedorelation": {
+    "dataSource": "mongodev",
+    "public":true
+  },
+  "decmodhead": {
+    "dataSource": "mongodev",
+    "public":true
+  },
+  "decmodresult": {
+    "dataSource": "mongodev",
+    "public":true
+  },
+  "decmodheadcount": {
+    "dataSource": "mongodev",
+    "public":true
+  },
+  "decmod": {
+    "dataSource": "mongodev",
+    "public":true
+  },
+  "shangjianresp": {
+    "dataSource": "testmongo",
+    "public":true
+  },
+  "shangjiandecl": {
+    "dataSource": "testmongo",
+    "public":true
+  },
+  "shangjiangoods": {
+    "dataSource": "testmongo",
+    "public":true
+  },
+  "shangjiancount": {
+    "dataSource": "testmongo",
+    "public":true
+  },
+  "workplanmssql": {
+    "dataSource": "sqlserverdb124",
+    "public": true
+  },
+  "HrmPinYinResource": {
+    "dataSource": "sqlserverdb124",
+    "public": true
+  },
+  "Summarylog": {
+    "dataSource": "filemongo",
+    "public": true
+  },
+  "attachinfotest": {
+    "dataSource": "testmongo",
+    "public": true
+  },
+  "Summarylogtest": {
+    "dataSource": "testmongo",
+    "public": true
+  }
+}

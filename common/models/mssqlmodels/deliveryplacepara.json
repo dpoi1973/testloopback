@@ -1,0 +1,25 @@
+{
+  "name": "deliveryplacepara",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mssql": {
+      "table": "deliveryPlace"
+    }
+  },
+  "description": "貨點參數",
+  
+  "properties": {
+    "ID": { "type": "string" ,"id": true},
+    "Address": { "type": "string", "size": 150 },
+    "custid": { "type": "string" },
+    "Custname": { "type": "string", "size": 80 },
+    "CreateDate": { "type": "date" },
+    "CreatePerson": { "type": "string", "size": 50 }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

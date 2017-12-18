@@ -1,0 +1,34 @@
+{
+  "restApiRoot": "/api",
+  "host": "0.0.0.0",
+  "port": 3001,
+  "remoting": {
+    "context": {
+      "enableHttpContext": false
+    },
+    "rest": {
+      "normalizeHttpPath": false,
+      "xml": false
+    },
+    "json": {
+      "strict": false,
+      "limit": "10000kb"
+    },
+    "urlencoded": {
+      "extended": true,
+      "limit": "900kb"
+    },
+    "cors": false,
+    "errorHandler": {
+      "disableStackTrace": false
+    },
+    "api": {
+      "zhidanapi": "192.168.0.30:8086",
+      "ftpapi": "192.168.0.214",
+      "logicapi": "192.168.0.70",
+      "mqapi": "192.168.0.251",
+      "mysqlapi": "192.168.0.74"
+    }
+  },
+  "legacyExplorer": false
+}

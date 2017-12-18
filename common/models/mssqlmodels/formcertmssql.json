@@ -1,0 +1,32 @@
+{
+  "name": "formcertmssql",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mssql":{
+      "table":"Cert_List"
+    }
+  },
+  "properties": {
+    "pre_entry_id":{
+      "type":"string"
+    },
+    "order_no":{
+      "type":"string"
+    },
+    "docu_code":{
+      "type":"string"
+    },
+    "cert_code":{
+      "type":"string"
+    },
+    "ParentID":{
+      "type":"string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

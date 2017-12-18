@@ -1,0 +1,16 @@
+{
+    "name": "billinfomysql",
+    "base": "basebillinfo",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true,
+        "mysql": {
+            "table": "billinfo"
+        }
+    },
+    "description": "mysql model in qqauto",
+    "properties": {},
+    "validations": [],
+    "acls": [],
+    "methods": {}
+}

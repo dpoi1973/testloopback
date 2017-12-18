@@ -1,0 +1,26 @@
+{
+  "name": "decmodheadcount",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true,
+    "mongodb": {
+      "collection": "decmod_headcount"
+    }
+  },
+  "properties": {
+    "EntryId": {
+      "type": "string",
+      "index": {
+        "unique": true
+      }
+    },
+    "count": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

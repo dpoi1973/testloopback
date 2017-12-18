@@ -1,0 +1,20 @@
+{
+    "name": "shangjiangoods",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true,
+        "mongodb":{
+        "collection":"shangjiangoods"
+        }
+    },
+    "properties": {
+        "Ent_Decl_No": {
+            "type": "string"
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}

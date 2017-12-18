@@ -1,0 +1,269 @@
+{
+    "name": "dclbiodeclgoodsmssql",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true,
+        "mssql": {
+            "table": "Dcl_B_Io_Decl_Goods"
+        }
+    },
+    "description": "mssql model in 17test",
+    "properties": {
+        "Goods_Id": {
+            "type": "string",
+            "id": true,
+            "defaultFn": "guid"
+        },
+        "Decl_Id": {
+            "type": "string",
+            "size": 32
+        },
+        "Ent_Decl_No": {
+            "type": "string",
+            "size": 40
+        },
+        "Goods_No": {
+            "type": "number",
+            "size": 9
+        },
+        "Prod_Hs_Code": {
+            "type": "string",
+            "size": 12
+        },
+        "Hs_Code_Desc": {
+            "type": "string",
+            "size": 200
+        },
+        "Decl_Goods_Cname": {
+            "type": "string",
+            "size": 300
+        },
+        "Decl_Goods_Ename": {
+            "type": "string",
+            "size": 100
+        },
+        "Goods_Spec": {
+            "type": "string",
+            "size": 100
+        },
+        "Goods_Model": {
+            "type": "string",
+            "size": 100
+        },
+        "Orig_Place_Code": {
+            "type": "string",
+            "size": 50
+        },
+        "Ori_Ctry_Code": {
+            "type": "string",
+            "size": 10
+        },
+        "Goods_Brand": {
+            "type": "string",
+            "size": 100
+        },
+        "Insp_Type": {
+            "type": "string",
+            "size": 20
+        },
+        "Weight": {
+            "type": "number"
+        },
+        "Wt_Meas_Unit": {
+            "type": "string",
+            "size": 4
+        },
+        "Std_Weight": {
+           "type": "number"
+        },
+        "Std_Weight_Unit_Code": {
+            "type": "string",
+            "size": 4
+        },
+        "Qty": {
+            "type": "number"
+        },
+        "Qty_Meas_Unit": {
+            "type": "string",
+            "size": 4
+        },
+        "Std_Qty": {
+            "type": "number"
+        },
+        "Std_Qty_Unit_Code": {
+            "type": "string",
+            "size": 4
+        },
+        "Currency": {
+            "type": "string",
+            "size": 4
+        },
+        "Price_Per_Unit": {
+            "type": "number"
+        },
+        "Goods_Total_Val": {
+            "type": "number"
+        },
+        "Total_Val_Us": {
+            "type": "number"
+        },
+        "Total_Val_Cn": {
+            "type": "number"
+        },
+        "Ciq_Code": {
+            "type": "string",
+            "size": 20
+        },
+        "Ciq_Name": {
+            "type": "string",
+            "size": 50
+        },
+        "Ciq_Classify_Code": {
+            "type": "string",
+            "size": 20
+        },
+        "Ciq_Classify_Name": {
+            "type": "string",
+            "size": 100
+        },
+        "Situation_Code": {
+            "type": "string",
+            "size": 200
+        },
+        "Situation_Level": {
+            "type": "string",
+            "size": 20
+        },
+        "Purpose": {
+            "type": "string",
+            "size": 4
+        },
+        "Mnufctr_Reg_No": {
+            "type": "string",
+            "size": 20
+        },
+        "Produce_Date": {
+            "type": "string",
+            "size": 500
+        },
+        "Prod_Batch_No": {
+            "type": "string",
+            "size": 2000
+        },
+        "Prod_Valid_Dt": {
+            "type": "string",
+            "size": 255
+        },
+        "Prod_Qgp": {
+            "type": "string",
+            "size": 255
+        },
+        "Goods_Attr": {
+            "type": "string",
+            "size": 100
+        },
+        "Goods_Attr_Name": {
+            "type": "string",
+            "size": 200
+        },
+        "Stuff": {
+            "type": "string",
+            "size": 400
+        },
+        "Un_Code": {
+            "type": "string",
+            "size": 20
+        },
+        "Dang_Name": {
+            "type": "string",
+            "size": 80
+        },
+        "Pack_Type": {
+            "type": "string",
+            "size": 4
+        },
+        "Pack_Spec": {
+            "type": "string",
+            "size": 24
+        },
+        "Custm_Spv_Cond": {
+            "type": "string",
+            "size": 10
+        },
+        "Prod_Tag_Pic": {
+            "type": "string",
+            "size": 400
+        },
+        "Is_List_Goods": {
+            "type": "string",
+            "size": 1
+        },
+        "Cabin_No": {
+            "type": "string",
+            "size": 100
+        },
+        "Wagon_No": {
+            "type": "string",
+            "size": 100
+        },
+        "By1": {
+            "type": "string",
+            "size": 500
+        },
+        "By2": {
+            "type": "string",
+            "size": 500
+        },
+        "Eng_Man_Ent_Cnm": {
+            "type": "string",
+            "size": 100
+        },
+        "Rate": {
+           "type": "number"
+        },
+        "Mnufctr_Reg_Name": {
+            "type": "string",
+            "size": 150
+        },
+        "Orig_Place_Name": {
+            "type": "string",
+            "size": 50
+        },
+        "Ori_Ctry_Name": {
+            "type": "string",
+            "size": 50
+        },
+        "Wt_Unit_Name": {
+            "type": "string",
+            "size": 20
+        },
+        "Std_Weight_Unit_Name": {
+            "type": "string",
+            "size": 20
+        },
+        "Qty_Unit_Name": {
+            "type": "string",
+            "size": 20
+        },
+        "Std_Qty_Unit_Name": {
+            "type": "string",
+            "size": 20
+        },
+        "Currency_Name": {
+            "type": "string",
+            "size": 16
+        },
+        "Purpose_Name": {
+            "type": "string",
+            "size": 50
+        },
+        "No_Dang_Flag": {
+            "type": "string",
+            "size": 1
+        }
+    },
+    "validations": [],
+    "acls": [],
+    "methods": {}
+}

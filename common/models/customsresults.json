@@ -1,0 +1,92 @@
+{
+  "name": "customsresults",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "CID": {
+      "type": "string",
+      "id": true
+    },
+    "pre_Entry_ID": {
+      "type": "string"
+    },
+    "Entry_ID": {
+      "type": "string"
+    },
+    "Notice_Date": {
+      "type": "string"
+    },
+    "Channel": {
+      "type": "string"
+    },
+    "Note": {
+      "type": "string"
+    },
+    "Decl_Port": {
+      "type": "string"
+    },
+    "Agent_Name": {
+      "type": "string"
+    },
+    "Declare_No": {
+      "type": "string"
+    },
+    "Trade_Co": {
+      "type": "string"
+    },
+    "Customs_Field": {
+      "type": "string"
+    },
+    "Bonded_No": {
+      "type": "string"
+    },
+    "I_E_Date": {
+      "type": "string"
+    },
+    "Pack_No": {
+      "type": "string"
+    },
+    "Bill_No": {
+      "type": "string"
+    },
+    "Traf_Mode": {
+      "type": "string"
+    },
+    "Voyage_No": {
+      "type": "string"
+    },
+    "Net_WT": {
+      "type": "string"
+    },
+    "Cross_WT": {
+      "type": "string"
+    },
+    "D_Date": {
+      "type": "string"
+    },
+    "SUP_RESULT_INFO": {
+      "type": "string"
+    },
+    "EDI_NO": {
+      "type": "string"
+    },
+    "TODO_FLAG": {
+      "type": "string"
+    },
+    "CreateAt": {
+      "type": "date",
+      "defaultFn": "now"
+    },
+    "UpdateAt": {
+      "type": "date",
+      "defaultFn": "now"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

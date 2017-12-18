@@ -1,0 +1,172 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "sqlserverdb": {
+    "host": "192.168.0.132",
+    "port": 1433,
+    "database": "tempgoods",
+    "username": "poweruser",
+    "password": "system",
+    "name": "sqlserverdb",
+    "connector": "mssql"
+  },
+  "sqlserverdb132": {
+    "host": "192.168.0.132",
+    "port": 1433,
+    "database": "classifyTestPL",
+    "username": "poweruser",
+    "password": "system",
+    "name": "sqlserverdb132",
+    "connector": "mssql"
+  },
+   "sqlserverdb124": {
+    "host": "192.168.0.124",
+    "port": 1433,
+    "database": "ecology",
+    "username": "poweruser",
+    "password": "system",
+    "name": "sqlserverdb124",
+    "connector": "mssql"
+  },
+  "mongodev": {
+    "host": "192.168.0.14",
+    "port": 27017,
+    "database": "edilogs",
+    "username": "",
+    "password": "",
+    "name": "mongodev",
+    "connector": "mongodb"
+  },
+  "productmysql": {
+    "host": "192.168.0.72",
+    "port": 3306,
+    "database": "commonpara",
+    "username": "wanli",
+    "password": "50461616",
+    "name": "productmysql",
+    "connector": "mysql"
+  },
+  "devmysql": {
+    "host": "192.168.0.74",
+    "port": 3306,
+    "database": "qqautodb",
+    "username": "wanli",
+    "password": "123456789",
+    "name": "devmysql",
+    "connector": "mysql"
+  },
+  "redisDS": {
+    "host": "192.168.0.16",
+    "port": 6379,
+    "name": "redisDS",
+    "connector": "redis"
+  },
+  "storemysql": {
+    "host": "192.168.0.72",
+    "port": 3306,
+    "database": "wanli",
+    "username": "wanli",
+    "password": "50461616",
+    "name": "storemysql",
+    "connector": "mysql"
+  },
+  "oldmongodev": {
+    "host": "192.168.0.127",
+    "port": 27017,
+    "database": "YWBillDB",
+    "username": "",
+    "password": "",
+    "name": "oldmongodev",
+    "connector": "mongodb"
+  },
+  "oldmongopara": {
+    "host": "192.168.0.127",
+    "port": 27017,
+    "database": "ParasDB",
+    "username": "",
+    "password": "",
+    "name": "oldmongopara",
+    "connector": "mongodb"
+  },
+  "testmysql": {
+    "host": "192.168.0.70",
+    "port": 3306,
+    "database": "testbase",
+    "username": "root",
+    "password": "123456",
+    "name": "testmysql",
+    "connector": "mysql"
+  },
+  "74testbase": {
+    "host": "192.168.0.74",
+    "port": 3306,
+    "database": "test",
+    "username": "wanli",
+    "password": "123456789",
+    "name": "74testbase",
+    "connector": "mysql"
+  },
+  "testmongo": {
+    "host": "192.168.0.70",
+    "port": 27017,
+    "database": "test_result",
+    "username": "",
+    "password": "",
+    "name": "testmongo",
+    "connector": "mongodb"
+  },
+  "workmongo": {
+    "host": "192.168.0.127",
+    "port": 27017,
+    "database": "test_result",
+    "username": "",
+    "password": "",
+    "name": "workmongo",
+    "connector": "mongodb"
+  },
+  "filemongo": {
+    "host": "192.168.0.127",
+    "port": 27017,
+    "database": "Filescan",
+    "username": "",
+    "password": "",
+    "name": "filemongo",
+    "connector": "mongodb"
+  },
+  "userapi": {
+    "connector": "rest",
+    "debug": false,
+    "options": {
+      "headers": {
+        "accept": "application/json",
+        "content-type": "application/json"
+      },
+      "strictSSL": false
+    },
+    "operations": [
+      {
+        "template": {
+          "method": "GET",
+          "url": "http://192.168.0.30:8086/api/WeChatDataExchange/GetUser",
+          "query": {
+            "loginUser": "{loginUser}",
+            "loginPassword": "{loginPassword}"
+          },
+          "options": {
+            "strictSSL": true,
+            "useQuerystring": true
+          },
+          "responsePath": "$.userInfo"
+        },
+        "functions": {
+          "valuser": [
+            "loginUser",
+            "loginPassword"
+          ]
+        }
+      }
+    ]
+  }
+}

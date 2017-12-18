@@ -1,0 +1,13 @@
+{
+  "name": "formlistmysql",
+  "base": "formlistbase",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

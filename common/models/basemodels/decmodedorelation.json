@@ -1,0 +1,92 @@
+{
+  "name": "decmodedorelation",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true,
+    "mongodb": {
+      "collection": "decmod_deorelation"
+    }
+  },
+  "properties": {
+    "ObjectID": {
+      "type": "string",
+      "index": {
+        "unique": true
+      }
+    },
+    "ENTRY_ID": {
+      "type": "string"
+    },
+    "FILE_NAME": {
+      "type": "string"
+    },
+    "FILE_TYPE": {
+      "type": "string"
+    },
+    "OPNOTE": {
+      "type": "string"
+    },
+    "FORMAT_TYPE": {
+      "type": "string"
+    },
+    "EDOCCOPID": {
+      "type": "string"
+    },
+    "EDOCOWNERCODE": {
+      "type": "string"
+    },
+    "EDOCOWNERNAME": {
+      "type": "string"
+    },
+    "SIGNUNIT": {
+      "type": "string"
+    },
+    "SIGNTIME": {
+      "type": "string"
+    },
+    "EDOCSIZE": {
+      "type": "string"
+    },
+    "BIZ_TYPE": {
+      "type": "string"
+    },
+    "TRADE_CODE": {
+      "type": "string"
+    },
+    "GROUP_ID": {
+      "type": "string"
+    },
+    "TRADE_FILE_NAME": {
+      "type": "string"
+    },
+    "DECL_TYPE": {
+      "type": "string"
+    },
+    "DECL_CODE": {
+      "type": "string"
+    },
+    "DECL_NAME": {
+      "type": "string"
+    },
+    "FILE_DIGEST": {
+      "type": "string"
+    },
+    "SIGN_CERT": {
+      "type": "string"
+    },
+    "FILE_SIGN": {
+      "type": "string"
+    },
+    "DATA_STATUS": {
+      "type": "string"
+    },
+    "CREATE_TIME": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

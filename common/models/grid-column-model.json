@@ -1,0 +1,47 @@
+{
+  "name": "gridColumnModel",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "columnName": {
+      "type": "string"
+    },
+    "columnTitle": {
+      "type": "string"
+    },
+    "columnWidth": {
+      "type": "string"
+    },
+    "displaySeq": {
+      "type": "number"
+    },
+    "editable": {
+      "type": "string"
+    },
+    "editModelField": {
+      "type": "string"
+    },
+    "dataType": {
+      "type": "string"
+    },
+    "pinWhere": {
+      "type": "string"
+    },
+    "cellFilter":{
+      "type":"string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "gridoption": {
+      "type": "belongsTo",
+      "model": "Gridoption",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,143 @@
+{
+  "name": "formlistbase",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mysql": {
+      "table": "formlist"
+    }
+  },
+  "properties": {
+    "pre_entry_id": {
+      "type": "string",
+      "size": 18
+    },
+    "g_no": {
+      "type": "string",
+      "size": 2
+    },
+    "code_t": {
+      "type": "string",
+      "size": 10
+    },
+    "code_s": {
+      "type": "string",
+      "size": 2
+    },
+    "g_name": {
+      "type": "string",
+      "size": 255
+    },
+    "g_model": {
+      "type": "string",
+      "size": 255
+    },
+    "qty_1": {
+      "type": "string",
+      "size": 20
+    },
+    "g_unit": {
+      "type": "string",
+      "size": 20
+    },
+    "decl_price": {
+      "type": "string",
+      "size": 20
+    },
+    "trade_total": {
+      "type": "string",
+      "size": 20
+    },
+    "trade_curr": {
+      "type": "string",
+      "size": 20
+    },
+    "qty_conv": {
+      "type": "string",
+      "size": 20
+    },
+    "unit_1": {
+      "type": "string",
+      "size": 20
+    },
+    "ver_no": {
+      "type": "string",
+      "size": 20
+    },
+    "prdt_no": {
+      "type": "string",
+      "size": 50
+    },
+    "use_to": {
+      "type": "string",
+      "size": 20
+    },
+    "origin_country": {
+      "type": "string",
+      "size": 20
+    },
+    "contr_item": {
+      "type": "string",
+      "size": 2
+    },
+    "qty_2": {
+      "type": "string",
+      "size": 20
+    },
+    "unit_2": {
+      "type": "string",
+      "size": 20
+    },
+    "duty_mode": {
+      "type": "string",
+      "size": 20
+    },
+    "work_usd": {
+      "type": "string",
+      "size": 20
+    },
+    "create_date": {
+      "type": "string",
+      "size": 20
+    },
+    "entry_group": {
+      "type": "string",
+      "size": 20
+    },
+    "FORM_LIST_GUID": {
+      "type": "string",
+      "size": 30
+    },
+    "SUP_TYPE": {
+      "type": "string",
+      "size": 20
+    },
+    "DESTINATION_COUNTRY": {
+      "type": "string",
+      "size": 20
+    },
+    "parentid": {
+      "type": "number"
+    },
+    "createdBy": {
+      "type": "number"
+    },
+    "owner": {
+      "type": "number"
+    },
+    "id": {
+      "type": "number"
+    },
+    "createdAt": {
+      "type": "date"
+    },
+    "updatedAt": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

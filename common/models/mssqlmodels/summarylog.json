@@ -1,0 +1,49 @@
+{
+    "name": "Summarylog",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true,
+        "mongodb": {
+            "collection": "Summarylog"
+        }
+    },
+    "description": "mongo model in 127",
+    "properties": {
+        "id": {
+            "type": "any",
+            "id": true
+        },
+        "level": {
+            "type": "string"
+        },
+        "realpre_entry_id": {
+            "type": "string"
+        },
+        "pre_entry_id": {
+            "type": "string"
+        },
+        "message": {
+            "type": "string"
+        },
+        "address": {
+            "type": "string"
+        },
+        "wldandang": {
+            "type": "string"
+        },
+        "batchno": {
+            "type": "string"
+        },
+        "logType": {
+            "type": "string"
+        },
+        "createdate": {
+            "type": "date",
+            "defaultFn": "now"
+        }
+    },
+    "validations": [],
+    "acls": [],
+    "methods": {}
+}

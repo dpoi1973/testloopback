@@ -1,0 +1,49 @@
+{
+  "name": "Ywinfo",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mssql": {
+      "table": "tbl_ywinfo"
+    }
+  },
+  "description": "運輸業務關聯明細表",
+  "properties": {
+    "ID": {
+      "type": "string",
+      "id": true
+    },
+    "Ywno": {
+      "type": "string"
+    },
+    "CustYwno": {
+      "type": "string"
+    },
+    "zhuandiaoflag": {
+      "type": "string"
+    },
+    "othertypestr1": {
+      "type": "string",
+      "size": 64
+    },
+    "othertypestr": {
+      "type": "string",
+      "size": 64
+    },
+    "mainpre_entry_id": {
+      "type": "string",
+      "size": 64
+    },
+    "WLDandang": {
+      "type": "string",
+      "size": 20
+    }
+  },
+  "validations": [],
+  "relations": {
+
+  },
+  "acls": [],
+  "methods": {}
+}

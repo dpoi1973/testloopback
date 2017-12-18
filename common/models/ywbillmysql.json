@@ -1,0 +1,17 @@
+{
+  "name": "ywbillmysql",
+  "description": "mysql model in qqauto",
+  "base": "baseywbill",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mysql": {
+      "table": "ywbill"
+    }
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

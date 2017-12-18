@@ -1,0 +1,119 @@
+{
+  "name": "formtempmssql",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mssql":{
+      "table":"FormTemp"
+    }
+  },
+  "properties": {
+    "ie_flag": {
+      "type": "string",
+      "size": 1
+    },
+    "pre_entry_id": {
+      "type": "string",
+      "id": true,
+      "required": true,
+      "size": 50
+    },
+    "contr_no": {
+      "type": "string",
+      "size": 70
+    },
+    "i_e_date": {
+      "type": "string",
+      "size": 10
+    },
+    "d_date": {
+      "type": "string",
+      "size": 20
+    },
+    "trade_co": {
+      "type": "string",
+      "size": 30
+    },
+    "trade_name": {
+      "type": "string",
+      "size": 50
+    },
+    "owner_code": {
+      "type": "string",
+      "size": 30
+    },
+    "owner_name": {
+      "type": "string",
+      "size": 50
+    },
+    "traf_name": {
+      "type": "string",
+      "size": 50
+    },
+    "voyage_no": {
+      "type": "string",
+      "size": 32
+    },
+    "bill_no": {
+      "type": "string",
+      "size": 64
+    },
+    "trade_mode": {
+      "type": "string",
+      "size": 4
+    },
+    "pack_no": {
+      "type": "string",
+      "size": 20
+    },
+    "gross_wt": {
+      "type": "string",
+      "size": 20
+    },
+    "net_wt": {
+      "type": "string",
+      "size": 20
+    },
+    "username": {
+      "type": "string",
+      "size": 50
+    },
+    "create_date": {
+      "type": "string",
+      "size": 50
+    },
+    "ksdmemo": {
+      "type": "string",
+      "size": 20
+    },
+    "resultmemo": {
+      "type": "string",
+      "size": 200
+    },
+    "savedate": {
+      "type": "date"
+    },
+    "versionid": {
+      "type": "any"
+    },
+    "importdate": {
+      "type": "date"
+    },
+    "importsource": {
+      "type": "string",
+      "size": 50
+    },
+    "senddate": {
+      "type": "date"
+    },
+    "tempmemo": {
+      "type": "string",
+      "size": 500
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

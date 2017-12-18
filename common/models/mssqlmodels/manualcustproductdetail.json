@@ -1,0 +1,74 @@
+{
+  "name": "manualcustproductdetail",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mysql": {
+      "table": "manualcustproductdetail"
+    }
+  },
+  "description": "",
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true
+    },
+    "SKU": {
+      "type": "string"
+    },
+    "HScode": {
+      "type": "string"
+    },
+    "custid": {
+      "type": "number"
+    },
+    "Cgoodsname": {
+      "type": "string"
+    },
+    "Cspec": {
+      "type": "string"
+    },
+    "Cunit": {
+      "type": "string"
+    },
+    "Cunit1": {
+      "type": "string"
+    },
+    "Cunit2": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "CreateDate": {
+      "type": "string"
+    },
+    "LastUpdateDate": {
+      "type": "string"
+    },
+    "CreatePerson": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "date",
+      "defaultFn": "now"
+    },
+    "updatedAt": {
+      "type": "date",
+      "defaultFn": "now"
+    },
+    "LastUpdatePerson": {
+      "type": "string"
+    },
+    "ControlMark": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+
+  },
+  "acls": [],
+  "methods": {}
+}

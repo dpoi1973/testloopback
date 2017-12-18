@@ -1,0 +1,35 @@
+{
+  "name": "formcontainer",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mssql":{
+      "table":"ContainerList"
+    }
+  },
+  "properties": {
+    "Pre_entry_id":{
+      "type":"string"
+    },
+    "OrderNO":{
+      "type":"string"
+    },
+    "ContainerNO":{
+      "type":"string"
+    },
+    "ContainerModel":{
+      "type":"string"
+    },
+    "ContainerWeight":{
+      "type":"string"
+    },
+    "Parentid":{
+      "type":"string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

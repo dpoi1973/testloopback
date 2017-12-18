@@ -1,0 +1,47 @@
+{
+    "name": "kjtorder",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true,
+        "mysql": {
+            "table": "kjtorder"
+        }
+    },
+    "description": "mysql model in test",
+    "properties": {
+        "serialno": {
+            "type": "string",
+            "id":true
+        },
+        "sendplace": {
+            "type": "string"
+        },
+        "payamount": {
+            "type": "string"
+        },
+        "receiver": {
+            "type": "string"
+        },
+        "address": {
+            "type": "string"
+        },
+        "email": {
+            "type": "string"
+        },
+        "tel": {
+            "type": "string"
+        },
+        "idno": {
+            "type": "string"
+        },
+        "orderproduct":{
+            "type": "json"
+        }
+    },
+    "validations": [],
+    "relations": {
+    },
+    "acls": [],
+    "methods": {}
+}

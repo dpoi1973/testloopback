@@ -1,0 +1,40 @@
+{
+    "name": "attachinfotest",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true,
+        "mongodb": {
+            "collection": "AttachInfotest"
+        }
+    },
+    "description": "mongo model in 127",
+    "properties": {
+        "id": {
+            "type": "any",
+            "id": true
+        },
+        "pre_entry_id": {
+            "type": "string"
+        },
+        "filetype": {
+            "type": "string"
+        },
+        "fileurl": {
+            "type": "string"
+        },
+        "filename": {
+            "type": "string"
+        },
+        "filelength": {
+            "type": "number"
+        },
+        "CreateDate": {
+            "type": "date",
+            "defaultFn": "now"
+        }
+    },
+    "validations": [],
+    "acls": [],
+    "methods": {}
+}

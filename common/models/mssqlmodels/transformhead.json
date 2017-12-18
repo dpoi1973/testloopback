@@ -1,0 +1,47 @@
+{
+    "name": "transformhead",
+    "base": "formheadbase",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true,
+        "mongodb": {
+            "collection": "FormHead"
+        }
+    },
+    "description": "mongo model in 127",
+    "properties": {
+        "id": {
+            "type": "any",
+            "id": true
+        },
+        "Datastatus": {
+            "type": "number"
+        },
+        "formlist": {
+            "type": "array"
+        },
+        "certlist": false,
+        "yearno": false,
+        "CreateAt": false,
+        "SUP_FLAG": false,
+        "UpdateAt": false,
+        "CerList": {
+            "type": "array"
+        },
+        "Tax_Amount": {
+            "type": "number"
+        },
+        "Containlist": {
+            "type": "array"
+        },
+        "CreateDate": {
+            "type": "Date"
+        },
+        "Lastupdatedate": {
+            "type": "Date"
+        }
+    },
+    "validations": [],
+    "acls": [],
+    "methods": {}
+}

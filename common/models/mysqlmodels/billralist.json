@@ -1,0 +1,77 @@
+{
+    "name": "billralist",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "billywid": {
+            "type": "string"
+        },
+        "ParentYWID": {
+            "type": "string"
+        },
+        "OtherNOType": {
+            "type": "string"
+        },
+        "OtherNO": {
+            "type": "string"
+        },
+        "Createdate": {
+            "type": "date"
+        },
+        "CreatePerson": {
+            "type": "string"
+        },
+        "LastUpdatePerson": {
+            "type": "string"
+        },
+        "LastUpdateDate": {
+            "type": "date"
+        },
+        "RACollectionID": {
+            "type": "string"
+        },
+        "ReconciliationAmount": {
+            "type": "string"
+        },
+        "RAFeeTypeName": {
+            "type": "string"
+        },
+        "RABillTypeName": {
+            "type": "string"
+        },
+        "FeePrintName": {
+            "type": "string"
+        },
+        "PrePayFlag": {
+            "type": "boolean"
+        },
+        "RAType": {
+            "type": "number"
+        },
+        "gid": {
+            "type": "string"
+        },
+        "RAFeeName": {
+            "type": "string"
+        },
+        "RAFeeNO": {
+            "type": "string"
+        },
+        "RAFeeAmount": {
+            "type": "string"
+        },
+        "RAFeeMemo": {
+            "type": "string"
+        },
+        "displayOrder": {
+            "type": "number"
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}

@@ -1,0 +1,37 @@
+{
+    "name": "transcustomresult",
+    "base": "customsresults",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true,
+        "mongodb": {
+            "collection": "customs_result"
+        }
+    },
+    "description": "mongo model in 70",
+    "properties": {
+        "CreateAt": false,
+        "UpdateAt": false,
+        "username": false,
+        "SUP_RESULT_INFO":false,
+        "UserName": {
+            "type": "string"
+        },
+        "errorflag": {
+            "type": "Boolean"
+        },
+        "versionid": {
+            "type": "string"
+        },
+        "Updatememo": {
+            "type": "string"
+        },
+        "MessageCreateDate": {
+            "type": "Date"
+        },
+        "TODO_FLAG":false
+    },
+    "validations": [],
+    "acls": [],
+    "methods": {}
+}

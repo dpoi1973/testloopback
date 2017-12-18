@@ -1,0 +1,38 @@
+{
+  "name": "transywinfodetail",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mssql": {
+      "table": "tbl_transywinfodetail"
+    }
+  },
+  "description": "運輸業務關聯明細表",
+  "properties": {
+    "uid": { "type": "string", "id": true },
+    "ywid": { "type": "string" },
+    "pre_entry_id": { "type": "string", "size": 500 },
+    "parentid": { "type": "string" },
+    "YWNo": { "type": "string", "size": 20 },
+    "bill_no": { "type": "string", "size": 64 },
+    "pack_no": { "type": "number" },
+    "grossweight": { "type": "number" },
+    "netweight": { "type": "number" },
+    "memo": { "type": "string", "size": 20 },
+    "Createdate": { "type": "date" },
+    "CreatePerson": { "type": "string", "size": 20 },
+    "Lastupdatedate": { "type": "date" },
+    "LastupdatePerson": { "type": "string", "size": 10 },
+    "versionid": { "type": "any" },
+    "IEDate": { "type": "date" },
+    "mainGoodsName": { "type": "string", "size": 100 },
+    "serialno": { "type": "number" },
+    "FeeWeigthMemo": { "type": "string", "size": 20 },
+    "JiFlag": { "type": "string", "size": 10 }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

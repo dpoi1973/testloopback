@@ -1,0 +1,45 @@
+{
+  "name": "custinfo",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mssql": {
+      "table": "tbl_custinfo"
+    }
+  },
+   "description":"sqlServer 客户信息表",
+  "properties": {
+    "Id": { "type": "string" ,"id": true},
+    "Custno": { "type": "string", "size": 40 },
+    "Custname": { "type": "string", "size": 50 },
+    "Parentid": { "type": "string" },
+    "Customno": { "type": "string", "size": 10 },
+    "Customnovaliddate": { "type": "date" },
+    "ShangjianNO": { "type": "string", "size": 10 },
+    "Createdate": { "type": "date" },
+    "tmpcustid": { "type": "string", "size": 20 },
+    "CustTypeValueDef": { "type": "string", "size": 255 },
+    "CustType": { "type": "string", "size": 20 },
+    "ShangjianName": { "type": "string", "size": 100 },
+    "Supplierflag": { "type": "boolean" },
+    "custtypeName": { "type": "string", "size": 20 },
+    "custmemo": { "type": "string", "size": 100 },
+    "CreatePersonName": { "type": "string", "size": 10 },
+    "CustomsLevel": { "type": "string", "size": 20 },
+    "TongguanHours": { "type": "number" },
+    "Gfsh": { "type": "string", "size": 50 },
+    "Gfyhzh": { "type": "string", "size": 50 },
+    "Gfdzdh": { "type": "string", "size": 1000 },
+    "stopflag": { "type": "boolean" },
+    "Gfmc": { "type": "string", "size": 50 },
+    "U8CustNo": { "type": "string", "size": 50 },
+    "U8DepartCode": { "type": "string", "size": 50 },
+    "FuhuilianLevel": { "type": "string", "size": 10 },
+    "CustomnoSCC": { "type": "string", "size": 20 }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

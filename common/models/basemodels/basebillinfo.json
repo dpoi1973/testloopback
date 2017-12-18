@@ -1,0 +1,71 @@
+{
+    "name": "basebillinfo",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "BillId": {
+            "type": "string"
+        },
+        "CreatePersonName": {
+            "type": "string"
+        },
+        "CreateDate": {
+            "type": "date"
+        },
+        "LastUpdatedate": {
+            "type": "date"
+        },
+        "LastUpdatePerson": {
+            "type": "string"
+        },
+        "BillCustid": {
+            "type": "string"
+        },
+        "BillCustName": {
+            "type": "string"
+        },
+        "BillTitle": {
+            "type": "string"
+        },
+        "TotalRAAmount": {
+            "type": "number"
+        },
+        "TotalCostAmount": {
+            "type": "number"
+        },
+        "TotalPrePayCostAmount": {
+            "type": "number"
+        },
+        "ContractID": {
+            "type": "string"
+        },
+        "CalType": {
+            "type": "string"
+        },
+        "Memo": {
+            "type": "string"
+        },
+        "CurrStatus": {
+            "type": "number"
+        },
+        "billTypevalue": {
+            "type": "string"
+        },
+        "ywbilllist": {
+            "type": "string"
+        },
+        "AvailInvoiceAmount": {
+            "type": "string"
+        },
+        "BillCustNO": {
+            "type": "string"
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}
